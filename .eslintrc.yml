@@ -1,5 +1,4 @@
 ---
-
 root: true
 
 plugins:
@@ -32,3 +31,7 @@ rules:
   functional/functional-parameters: 0
   functional/no-try-statement: 0
   functional/no-throw-statement: 0
+  jsx-a11y/label-has-for: ["error", {
+        "required": {
+          "some": ["nesting", "id"]
+        }]
