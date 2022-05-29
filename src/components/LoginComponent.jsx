@@ -46,7 +46,7 @@ const LoginComponent = () => {
                 </div>
                 <div className="form-floating mb-4">
                   <label className="form-label" htmlFor="password">Пароль</label>
-                  <input name="password" autoComplete="current-password" required placeholder="Пароль" type="password" id="password" className={formik.touched.username && formik.errors.username ? "form-control is-invalid" : "form-control"}
+                  <input name="password" autoComplete="current-password" required placeholder="Пароль" type="password" id="password" className={formik.touched.password && formik.errors.password ? "form-control is-invalid" : "form-control"}
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                     value={formik.values.password} />
