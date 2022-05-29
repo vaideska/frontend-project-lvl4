@@ -1,5 +1,5 @@
 import React from 'react';
 
-const MainComponent = () => <div>newMain</div>;
+const MainComponent = () => <div>MainComponent</div>;
 
 export default MainComponent;

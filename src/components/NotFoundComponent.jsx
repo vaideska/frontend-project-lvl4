@@ -2,7 +2,7 @@ import React from 'react';
 
 const NotFoundComponent = () => (
   <div className="text-center">
-    <img alt="Страница не найдена" className="img-fluid" src="https://cdn2.hexlet.io/assets/error-pages/404-34f20d4d98c81c575950c89d4c49027513d0bb3f6adbb3ed85ca0923496f65df.png" />
+    <img alt="Страница не найдена" className="img-fluid" src="https://lumpics.ru/wp-content/uploads/2021/01/oshibka-404-stranicza-ne-najdena-v-brauzere.png" />
     <h1 className="h4 text-muted">Страница не найдена</h1>
     <p className="text-muted">
       Но вы можете перейти
